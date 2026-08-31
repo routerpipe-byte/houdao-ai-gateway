@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "initialized": false,
+  "inventory_url": "https://www.tesla.com/es_ES/inventory/new/my?arrangeby=plh&zip=46183&PaymentType=cash",
+  "source": {
+    "filters": {
+      "country": "Spain",
+      "model": "Model Y"
+    },
+    "name": "Teslastats Tesla Inventory",
+    "page": "https://teslainventory.teslastats.no/es/"
+  },
+  "vehicle_ids": [],
+  "vehicles": {}
+}
