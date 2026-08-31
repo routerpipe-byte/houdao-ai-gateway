@@ -1,15 +1,110 @@
 {
-  "schema_version": 1,
-  "initialized": false,
+  "initialized": true,
   "inventory_url": "https://www.tesla.com/es_ES/inventory/new/my?arrangeby=plh&zip=46183&PaymentType=cash",
+  "schema_version": 1,
   "source": {
+    "api": "https://teslainventory.teslastats.no/api/get-cars.php",
     "filters": {
       "country": "Spain",
       "model": "Model Y"
     },
+    "last_fetch": {
+      "attempt": 1,
+      "expected_count": 5,
+      "fetched_at_utc": "2026-08-31T06:36:44.096601+00:00",
+      "filters": {
+        "land": "es",
+        "model": "y"
+      },
+      "source_api": "https://teslainventory.teslastats.no/api/get-cars.php",
+      "source_page": "https://teslainventory.teslastats.no/es/"
+    },
     "name": "Teslastats Tesla Inventory",
     "page": "https://teslainventory.teslastats.no/es/"
   },
-  "vehicle_ids": [],
-  "vehicles": {}
+  "updated_at_utc": "2026-08-31T06:36:45.268577+00:00",
+  "vehicle_ids": [
+    "XP7Y204_70f7ee0150cc2572dcfacb8970a9c831",
+    "XP7Y206_82d4e08dc72e6f0f3f18f32398d2216f",
+    "XP7Y216_9d8d8d2b83e2b13a3f366c28301fd849",
+    "XP7Y218_9259ef79246a9f8eea8d82df3f6171cb",
+    "XP7Y242_f368b7d9980a38b650758692ccbae1e2"
+  ],
+  "vehicles": {
+    "XP7Y204_70f7ee0150cc2572dcfacb8970a9c831": {
+      "autopilot": "➂",
+      "discount": "€ 341.00",
+      "interior": "IBB5",
+      "location": "Iurreta",
+      "mileage": "4",
+      "paint": "Stealth Grey",
+      "price": "€ 47,347.00",
+      "requests": "1",
+      "seats": "5",
+      "source_url": "https://teslainventory.teslastats.no/lookup.php?vin=XP7Y204_70f7ee0150cc2572dcfacb8970a9c831",
+      "trim": "LR RWD",
+      "vehicle_id": "XP7Y204_70f7ee0150cc2572dcfacb8970a9c831",
+      "wheels": "18\" Aperture"
+    },
+    "XP7Y206_82d4e08dc72e6f0f3f18f32398d2216f": {
+      "autopilot": "➂",
+      "discount": "€ 1,536.00",
+      "interior": "IBB5",
+      "location": "Sevilla",
+      "mileage": "3151",
+      "paint": "Pearl White Multi-Coat",
+      "price": "€ 47,202.00",
+      "requests": "1",
+      "seats": "5",
+      "source_url": "https://teslainventory.teslastats.no/lookup.php?vin=XP7Y206_82d4e08dc72e6f0f3f18f32398d2216f",
+      "trim": "LR RWD",
+      "vehicle_id": "XP7Y206_82d4e08dc72e6f0f3f18f32398d2216f",
+      "wheels": "18\" Aperture"
+    },
+    "XP7Y216_9d8d8d2b83e2b13a3f366c28301fd849": {
+      "autopilot": "➂",
+      "discount": "€ 241.00",
+      "interior": "IBB6",
+      "location": "Vigo",
+      "mileage": "4",
+      "paint": "Pearl White Multi-Coat",
+      "price": "€ 50,118.00",
+      "requests": "2",
+      "seats": "5",
+      "source_url": "https://teslainventory.teslastats.no/lookup.php?vin=XP7Y216_9d8d8d2b83e2b13a3f366c28301fd849",
+      "trim": "LR RWD",
+      "vehicle_id": "XP7Y216_9d8d8d2b83e2b13a3f366c28301fd849",
+      "wheels": "18\" Aperture"
+    },
+    "XP7Y218_9259ef79246a9f8eea8d82df3f6171cb": {
+      "autopilot": "➂",
+      "discount": "€ 4,716.00",
+      "interior": "Black Premium",
+      "location": "Sevilla",
+      "mileage": "12938",
+      "paint": "Quicksilver",
+      "price": "€ 53,204.00",
+      "requests": "4",
+      "seats": "5",
+      "source_url": "https://teslainventory.teslastats.no/lookup.php?vin=XP7Y218_9259ef79246a9f8eea8d82df3f6171cb",
+      "trim": "PR AWD",
+      "vehicle_id": "XP7Y218_9259ef79246a9f8eea8d82df3f6171cb",
+      "wheels": "20\" Helix 2.0"
+    },
+    "XP7Y242_f368b7d9980a38b650758692ccbae1e2": {
+      "autopilot": "➂",
+      "discount": "€ 1,516.00",
+      "interior": "IBB5",
+      "location": "Spain",
+      "mileage": "2808",
+      "paint": "Pearl White Multi-Coat",
+      "price": "€ 47,226.00",
+      "requests": "1",
+      "seats": "5",
+      "source_url": "https://teslainventory.teslastats.no/lookup.php?vin=XP7Y242_f368b7d9980a38b650758692ccbae1e2",
+      "trim": "LR RWD",
+      "vehicle_id": "XP7Y242_f368b7d9980a38b650758692ccbae1e2",
+      "wheels": "18\" Aperture"
+    }
+  }
 }
