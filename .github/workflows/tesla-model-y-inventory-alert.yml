@@ -10,6 +10,7 @@ on:
       - main
     paths:
       - ".github/tesla-monitor/monitor.py"
+      - ".github/tesla-monitor/runner.py"
       - ".github/tesla-monitor/requirements.txt"
       - ".github/workflows/tesla-model-y-inventory-alert.yml"
   pull_request:
@@ -50,7 +51,7 @@ jobs:
           TESLA_ALERT_ASSIGNEE: routerpipe-byte
           TESLA_STATE_PATH: .github/tesla-monitor/state.json
           DRY_RUN: ${{ github.event_name == 'pull_request' && 'true' || 'false' }}
-        run: python .github/tesla-monitor/monitor.py
+        run: python .github/tesla-monitor/runner.py
 
       - name: Persist inventory state
         if: ${{ github.event_name != 'pull_request' && steps.monitor.outputs.state_changed == 'true' }}
