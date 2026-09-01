@@ -10,8 +10,8 @@
     },
     "last_fetch": {
       "attempt": 1,
-      "expected_count": 5,
-      "fetched_at_utc": "2026-08-31T06:36:44.096601+00:00",
+      "expected_count": 8,
+      "fetched_at_utc": "2026-09-01T17:49:15.132872+00:00",
       "filters": {
         "land": "es",
         "model": "y"
@@ -22,12 +22,15 @@
     "name": "Teslastats Tesla Inventory",
     "page": "https://teslainventory.teslastats.no/es/"
   },
-  "updated_at_utc": "2026-08-31T06:36:45.268577+00:00",
+  "updated_at_utc": "2026-09-01T17:49:16.231646+00:00",
   "vehicle_ids": [
     "XP7Y204_70f7ee0150cc2572dcfacb8970a9c831",
     "XP7Y206_82d4e08dc72e6f0f3f18f32398d2216f",
+    "XP7Y206_eccf8e04443ce2330532f0fa883324dc",
     "XP7Y216_9d8d8d2b83e2b13a3f366c28301fd849",
     "XP7Y218_9259ef79246a9f8eea8d82df3f6171cb",
+    "XP7Y220_b018d746925fbedeeb0548b106953f9b",
+    "XP7Y242_f35bae090bc05c1aababfc894f1168d2",
     "XP7Y242_f368b7d9980a38b650758692ccbae1e2"
   ],
   "vehicles": {
@@ -61,6 +64,21 @@
       "vehicle_id": "XP7Y206_82d4e08dc72e6f0f3f18f32398d2216f",
       "wheels": "18\" Aperture"
     },
+    "XP7Y206_eccf8e04443ce2330532f0fa883324dc": {
+      "autopilot": "➂",
+      "discount": "€ 932.00",
+      "interior": "Black Premium",
+      "location": "Spain",
+      "mileage": "18",
+      "paint": "Quicksilver",
+      "price": "€ 55,442.00",
+      "requests": "0",
+      "seats": "5",
+      "source_url": "https://teslainventory.teslastats.no/lookup.php?vin=XP7Y206_eccf8e04443ce2330532f0fa883324dc",
+      "trim": "PR AWD",
+      "vehicle_id": "XP7Y206_eccf8e04443ce2330532f0fa883324dc",
+      "wheels": "19\" Crossflow"
+    },
     "XP7Y216_9d8d8d2b83e2b13a3f366c28301fd849": {
       "autopilot": "➂",
       "discount": "€ 241.00",
@@ -90,6 +108,36 @@
       "trim": "PR AWD",
       "vehicle_id": "XP7Y218_9259ef79246a9f8eea8d82df3f6171cb",
       "wheels": "20\" Helix 2.0"
+    },
+    "XP7Y220_b018d746925fbedeeb0548b106953f9b": {
+      "autopilot": "➂",
+      "discount": "€ 3,778.00",
+      "interior": "Black Premium",
+      "location": "Spain",
+      "mileage": "12753",
+      "paint": "Quicksilver",
+      "price": "€ 52,139.00",
+      "requests": "0",
+      "seats": "5",
+      "source_url": "https://teslainventory.teslastats.no/lookup.php?vin=XP7Y220_b018d746925fbedeeb0548b106953f9b",
+      "trim": "PR AWD",
+      "vehicle_id": "XP7Y220_b018d746925fbedeeb0548b106953f9b",
+      "wheels": "19\" Crossflow"
+    },
+    "XP7Y242_f35bae090bc05c1aababfc894f1168d2": {
+      "autopilot": "➂",
+      "discount": "€ 2,222.00",
+      "interior": "Black Premium",
+      "location": "Fuenlabrada",
+      "mileage": "4667",
+      "paint": "Diamond Black",
+      "price": "€ 62,581.00",
+      "requests": "0",
+      "seats": "5",
+      "source_url": "https://teslainventory.teslastats.no/lookup.php?vin=XP7Y242_f35bae090bc05c1aababfc894f1168d2",
+      "trim": "LR AWD P",
+      "vehicle_id": "XP7Y242_f35bae090bc05c1aababfc894f1168d2",
+      "wheels": "21\" Arachnid 2.0"
     },
     "XP7Y242_f368b7d9980a38b650758692ccbae1e2": {
       "autopilot": "➂",
