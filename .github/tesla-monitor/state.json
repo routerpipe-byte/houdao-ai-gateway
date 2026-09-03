@@ -10,8 +10,8 @@
     },
     "last_fetch": {
       "attempt": 1,
-      "expected_count": 8,
-      "fetched_at_utc": "2026-09-01T17:49:15.132872+00:00",
+      "expected_count": 15,
+      "fetched_at_utc": "2026-09-03T17:19:04.010809+00:00",
       "filters": {
         "land": "es",
         "model": "y"
@@ -22,14 +22,21 @@
     "name": "Teslastats Tesla Inventory",
     "page": "https://teslainventory.teslastats.no/es/"
   },
-  "updated_at_utc": "2026-09-01T17:49:16.231646+00:00",
+  "updated_at_utc": "2026-09-03T17:19:05.036890+00:00",
   "vehicle_ids": [
     "XP7Y204_70f7ee0150cc2572dcfacb8970a9c831",
     "XP7Y206_82d4e08dc72e6f0f3f18f32398d2216f",
+    "XP7Y206_e2dfefac5a98a787126563cca79a089a",
     "XP7Y206_eccf8e04443ce2330532f0fa883324dc",
+    "XP7Y208_2c069e4903bb62ba6349536c6466c5ad",
+    "XP7Y208_ec9cb9435a32c8b156099ee31747567b",
     "XP7Y216_9d8d8d2b83e2b13a3f366c28301fd849",
+    "XP7Y218_6766d6acf09feb5c70c569726a87519c",
     "XP7Y218_9259ef79246a9f8eea8d82df3f6171cb",
+    "XP7Y220_3975ae62282c2841508e247f237631e3",
     "XP7Y220_b018d746925fbedeeb0548b106953f9b",
+    "XP7Y242_ab06fe69e383b9cf8ca32cce613c2dd9",
+    "XP7Y242_b981ae27f2fda6d8ae022013e4f305eb",
     "XP7Y242_f35bae090bc05c1aababfc894f1168d2",
     "XP7Y242_f368b7d9980a38b650758692ccbae1e2"
   ],
@@ -64,6 +71,21 @@
       "vehicle_id": "XP7Y206_82d4e08dc72e6f0f3f18f32398d2216f",
       "wheels": "18\" Aperture"
     },
+    "XP7Y206_e2dfefac5a98a787126563cca79a089a": {
+      "autopilot": "➂",
+      "discount": "€ 1,690.00",
+      "interior": "IBB6",
+      "location": "Spain",
+      "mileage": "5381",
+      "paint": "Pearl White Multi-Coat",
+      "price": "€ 40,015.00",
+      "requests": "0",
+      "seats": "5",
+      "source_url": "https://teslainventory.teslastats.no/lookup.php?vin=XP7Y206_e2dfefac5a98a787126563cca79a089a",
+      "trim": "MY RWD",
+      "vehicle_id": "XP7Y206_e2dfefac5a98a787126563cca79a089a",
+      "wheels": "18\" Aperture"
+    },
     "XP7Y206_eccf8e04443ce2330532f0fa883324dc": {
       "autopilot": "➂",
       "discount": "€ 932.00",
@@ -78,6 +100,36 @@
       "trim": "PR AWD",
       "vehicle_id": "XP7Y206_eccf8e04443ce2330532f0fa883324dc",
       "wheels": "19\" Crossflow"
+    },
+    "XP7Y208_2c069e4903bb62ba6349536c6466c5ad": {
+      "autopilot": "➂",
+      "discount": "€ 0",
+      "interior": "Black Premium",
+      "location": "Barcelona",
+      "mileage": "4",
+      "paint": "Diamond Black",
+      "price": "€ 55,470.00",
+      "requests": "0",
+      "seats": "5",
+      "source_url": "https://teslainventory.teslastats.no/lookup.php?vin=XP7Y208_2c069e4903bb62ba6349536c6466c5ad",
+      "trim": "PR RWD",
+      "vehicle_id": "XP7Y208_2c069e4903bb62ba6349536c6466c5ad",
+      "wheels": "20\" Helix 2.0"
+    },
+    "XP7Y208_ec9cb9435a32c8b156099ee31747567b": {
+      "autopilot": "➂",
+      "discount": "€ 1,866.00",
+      "interior": "Black Premium",
+      "location": "Spain",
+      "mileage": "792",
+      "paint": "Diamond Black",
+      "price": "€ 55,212.00",
+      "requests": "0",
+      "seats": "5",
+      "source_url": "https://teslainventory.teslastats.no/lookup.php?vin=XP7Y208_ec9cb9435a32c8b156099ee31747567b",
+      "trim": "PR AWD",
+      "vehicle_id": "XP7Y208_ec9cb9435a32c8b156099ee31747567b",
+      "wheels": "20\" Helix 2.0"
     },
     "XP7Y216_9d8d8d2b83e2b13a3f366c28301fd849": {
       "autopilot": "➂",
@@ -94,6 +146,21 @@
       "vehicle_id": "XP7Y216_9d8d8d2b83e2b13a3f366c28301fd849",
       "wheels": "18\" Aperture"
     },
+    "XP7Y218_6766d6acf09feb5c70c569726a87519c": {
+      "autopilot": "➂",
+      "discount": "€ 3,658.00",
+      "interior": "Black Premium",
+      "location": "Barcelona",
+      "mileage": "1571",
+      "paint": "Pearl White Multi-Coat",
+      "price": "€ 62,194.00",
+      "requests": "0",
+      "seats": "5",
+      "source_url": "https://teslainventory.teslastats.no/lookup.php?vin=XP7Y218_6766d6acf09feb5c70c569726a87519c",
+      "trim": "LR AWD P",
+      "vehicle_id": "XP7Y218_6766d6acf09feb5c70c569726a87519c",
+      "wheels": "21\" Arachnid 2.0"
+    },
     "XP7Y218_9259ef79246a9f8eea8d82df3f6171cb": {
       "autopilot": "➂",
       "discount": "€ 4,716.00",
@@ -109,6 +176,21 @@
       "vehicle_id": "XP7Y218_9259ef79246a9f8eea8d82df3f6171cb",
       "wheels": "20\" Helix 2.0"
     },
+    "XP7Y220_3975ae62282c2841508e247f237631e3": {
+      "autopilot": "➂",
+      "discount": "€ 3,323.00",
+      "interior": "Black Premium",
+      "location": "Iurreta",
+      "mileage": "10302",
+      "paint": "Pearl White Multi-Coat",
+      "price": "€ 51,389.00",
+      "requests": "0",
+      "seats": "5",
+      "source_url": "https://teslainventory.teslastats.no/lookup.php?vin=XP7Y220_3975ae62282c2841508e247f237631e3",
+      "trim": "PR AWD",
+      "vehicle_id": "XP7Y220_3975ae62282c2841508e247f237631e3",
+      "wheels": "19\" Crossflow"
+    },
     "XP7Y220_b018d746925fbedeeb0548b106953f9b": {
       "autopilot": "➂",
       "discount": "€ 3,778.00",
@@ -123,6 +205,36 @@
       "trim": "PR AWD",
       "vehicle_id": "XP7Y220_b018d746925fbedeeb0548b106953f9b",
       "wheels": "19\" Crossflow"
+    },
+    "XP7Y242_ab06fe69e383b9cf8ca32cce613c2dd9": {
+      "autopilot": "➂",
+      "discount": "€ 1,400.00",
+      "interior": "IBB6",
+      "location": "Spain",
+      "mileage": "3300",
+      "paint": "Pearl White Multi-Coat",
+      "price": "€ 40,366.00",
+      "requests": "0",
+      "seats": "5",
+      "source_url": "https://teslainventory.teslastats.no/lookup.php?vin=XP7Y242_ab06fe69e383b9cf8ca32cce613c2dd9",
+      "trim": "MY RWD",
+      "vehicle_id": "XP7Y242_ab06fe69e383b9cf8ca32cce613c2dd9",
+      "wheels": "18\" Aperture"
+    },
+    "XP7Y242_b981ae27f2fda6d8ae022013e4f305eb": {
+      "autopilot": "➂",
+      "discount": "€ 1,370.00",
+      "interior": "IBB6",
+      "location": "Spain",
+      "mileage": "2638",
+      "paint": "Pearl White Multi-Coat",
+      "price": "€ 40,402.00",
+      "requests": "0",
+      "seats": "5",
+      "source_url": "https://teslainventory.teslastats.no/lookup.php?vin=XP7Y242_b981ae27f2fda6d8ae022013e4f305eb",
+      "trim": "MY RWD",
+      "vehicle_id": "XP7Y242_b981ae27f2fda6d8ae022013e4f305eb",
+      "wheels": "18\" Aperture"
     },
     "XP7Y242_f35bae090bc05c1aababfc894f1168d2": {
       "autopilot": "➂",
