@@ -10,8 +10,8 @@
     },
     "last_fetch": {
       "attempt": 1,
-      "expected_count": 15,
-      "fetched_at_utc": "2026-09-03T17:19:04.010809+00:00",
+      "expected_count": 18,
+      "fetched_at_utc": "2026-09-04T04:30:07.872863+00:00",
       "filters": {
         "land": "es",
         "model": "y"
@@ -22,9 +22,11 @@
     "name": "Teslastats Tesla Inventory",
     "page": "https://teslainventory.teslastats.no/es/"
   },
-  "updated_at_utc": "2026-09-03T17:19:05.036890+00:00",
+  "updated_at_utc": "2026-09-04T04:30:09.007748+00:00",
   "vehicle_ids": [
     "XP7Y204_70f7ee0150cc2572dcfacb8970a9c831",
+    "XP7Y206_3b6da915825b40f1a5240c6fc4db871a",
+    "XP7Y206_64896b39887fe74e1b6a9b8accf88b6c",
     "XP7Y206_82d4e08dc72e6f0f3f18f32398d2216f",
     "XP7Y206_e2dfefac5a98a787126563cca79a089a",
     "XP7Y206_eccf8e04443ce2330532f0fa883324dc",
@@ -38,7 +40,8 @@
     "XP7Y242_ab06fe69e383b9cf8ca32cce613c2dd9",
     "XP7Y242_b981ae27f2fda6d8ae022013e4f305eb",
     "XP7Y242_f35bae090bc05c1aababfc894f1168d2",
-    "XP7Y242_f368b7d9980a38b650758692ccbae1e2"
+    "XP7Y242_f368b7d9980a38b650758692ccbae1e2",
+    "XP7Y254_ccc51b75481f97cecad999f5b50651ee"
   ],
   "vehicles": {
     "XP7Y204_70f7ee0150cc2572dcfacb8970a9c831": {
@@ -54,6 +57,36 @@
       "source_url": "https://teslainventory.teslastats.no/lookup.php?vin=XP7Y204_70f7ee0150cc2572dcfacb8970a9c831",
       "trim": "LR RWD",
       "vehicle_id": "XP7Y204_70f7ee0150cc2572dcfacb8970a9c831",
+      "wheels": "18\" Aperture"
+    },
+    "XP7Y206_3b6da915825b40f1a5240c6fc4db871a": {
+      "autopilot": "➂",
+      "discount": "€ 0",
+      "interior": "Black Premium",
+      "location": "Málaga",
+      "mileage": "5",
+      "paint": "Stealth Grey",
+      "price": "€ 63,970.00",
+      "requests": "0",
+      "seats": "5",
+      "source_url": "https://teslainventory.teslastats.no/lookup.php?vin=XP7Y206_3b6da915825b40f1a5240c6fc4db871a",
+      "trim": "LR AWD P",
+      "vehicle_id": "XP7Y206_3b6da915825b40f1a5240c6fc4db871a",
+      "wheels": "21\" Arachnid 2.0"
+    },
+    "XP7Y206_64896b39887fe74e1b6a9b8accf88b6c": {
+      "autopilot": "➂",
+      "discount": "€ 1,720.00",
+      "interior": "IBB6",
+      "location": "Spain",
+      "mileage": "5382",
+      "paint": "Pearl White Multi-Coat",
+      "price": "€ 39,978.00",
+      "requests": "0",
+      "seats": "5",
+      "source_url": "https://teslainventory.teslastats.no/lookup.php?vin=XP7Y206_64896b39887fe74e1b6a9b8accf88b6c",
+      "trim": "MY RWD",
+      "vehicle_id": "XP7Y206_64896b39887fe74e1b6a9b8accf88b6c",
       "wheels": "18\" Aperture"
     },
     "XP7Y206_82d4e08dc72e6f0f3f18f32398d2216f": {
@@ -264,6 +297,21 @@
       "source_url": "https://teslainventory.teslastats.no/lookup.php?vin=XP7Y242_f368b7d9980a38b650758692ccbae1e2",
       "trim": "LR RWD",
       "vehicle_id": "XP7Y242_f368b7d9980a38b650758692ccbae1e2",
+      "wheels": "18\" Aperture"
+    },
+    "XP7Y254_ccc51b75481f97cecad999f5b50651ee": {
+      "autopilot": "➂",
+      "discount": "€ 1,286.00",
+      "interior": "IBB6",
+      "location": "Fuenlabrada",
+      "mileage": "1964",
+      "paint": "PB03",
+      "price": "€ 41,854.00",
+      "requests": "0",
+      "seats": "5",
+      "source_url": "https://teslainventory.teslastats.no/lookup.php?vin=XP7Y254_ccc51b75481f97cecad999f5b50651ee",
+      "trim": "MY RWD",
+      "vehicle_id": "XP7Y254_ccc51b75481f97cecad999f5b50651ee",
       "wheels": "18\" Aperture"
     }
   }
